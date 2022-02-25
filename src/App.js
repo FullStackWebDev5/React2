@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import './App.css'
-import HelloClass from './components/HelloClass.js'
+import CounterClass from './components/CounterClass'
+import HelloClass from './components/HelloClass'
+import CollegeStudents from './components/CollegeStudents/CollegeStudents'
 
 class App extends Component {
-  constructor(props){
-    super(props)
-  }
-
   render(){
     return (
       <div className="App">
-        <HelloClass />
+        <CollegeStudents />
+        {/* <CounterClass /> */}
+        {/* <HelloClass /> */}
         {/* <HelloClass greetTo='Africa' />
         <HelloClass greetTo='Australia' /> */}
         {/* <Hello1 greetTo='Africa' />
